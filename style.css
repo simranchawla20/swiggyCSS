@@ -1,0 +1,164 @@
+.container {
+    max-width: 1140px;
+    margin: auto;
+    padding: 0 16px;
+  }
+  
+  /* features section */
+  
+  .features {
+    background: #2b1e16;
+    padding-bottom: 60px;
+  }
+  
+  .features .container {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+  }
+  
+  .feature {
+    text-align: center;
+    padding-top: 80px;
+  }
+  
+  @media (min-width: 900px) {
+    .features .container {
+      justify-content: space-between;
+    }
+  
+    .feature {
+      padding-top: 0px;
+    }
+  }
+  
+  .feature img {
+    height: 200px;
+    margin-bottom: 40px;
+  }
+  
+  .feature h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .feature p {
+    font-size: 15px;
+    width: 260px;
+    color: #e0cbc1;
+  }
+  
+  /* preview section styles */
+  
+  
+  
+  .preview .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  
+  .preview .screenshots {
+    display: none;
+  }
+  
+  @media (min-width: 1000px) {
+    .preview .screenshots {
+      display: flex;
+    }
+  
+    .preview .container {
+      justify-content: space-between;
+      flex-flow: row nowrap;
+    }
+  }
+  
+  .description {
+    padding: 40px;
+  }
+  
+  .description h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1;
+    color: #282c3f;
+  }
+  
+  .description nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .description img {
+    width: 200px;
+  }
+  
+  .description p {
+    font-size: 20px;
+    width: 400px;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    color: #7e808c;
+    line-height: 1.2;
+  }
+  
+  .screenshots img {
+    width: 350px;
+  }
+  
+  .screenshots img:nth-child(1) {
+    padding-bottom: 60px;
+  }
+  
+  .screenshots img:nth-child(2) {
+    padding-top: 60px;
+    margin-left: -40px;
+  }
+  
+  /* footer styles */
+  
+  footer {
+    background: #000;
+  }
+  
+  footer .container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  
+  footer section {
+    padding-top: 60px;
+  }
+  
+  footer h3 {
+    color: gray;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 2;
+  }
+  
+  footer a:hover {
+    font-weight: bold;
+  }
+  
+  footer a img:hover {
+    transform: scale(1.1);
+  }
+  
+  footer nav {
+    min-width: 18ch;
+  }
+  
